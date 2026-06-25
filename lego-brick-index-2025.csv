@@ -1,0 +1,38 @@
+date,iso_a3,country,currency_code,local_76313,local_75379,local_75375,local_60316,local_60399,local_60314,dollar_ex,usd_76313,usd_75379,usd_75375,usd_60316,usd_60399,usd_60314,composite_usd,USD_raw,data_source,source_url,notes
+2025-01-01,CHN,China,CNY,539,569,459,369,449,269,7.190,74.97,79.14,63.84,51.32,62.45,37.41,61.52,-23.88,retailer_jd,https://mall.jd.com/index-790139.html,JD.com (乐高官方旗舰店) list price — no discounts applied. lego.com/zh-cn exists but shows no purchasable price for these sets.
+2025-01-01,CAN,Canada,CAD,129.99,129.99,109.99,89.99,109.99,64.99,1.380,94.20,94.20,79.70,65.21,79.70,47.09,76.68,-5.12,official,https://www.lego.com/en-ca,
+2025-01-01,AUS,Australia,AUD,149.99,149.99,129.99,109.99,119.99,79.99,1.600,93.74,93.74,81.24,68.74,74.99,49.99,77.07,-4.64,official,https://www.lego.com/en-au,
+2025-01-01,JPN,Japan,JPY,14980,14980,12980,9980,11980,7480,150.000,99.87,99.87,86.53,66.53,79.87,49.87,80.42,-0.49,official,https://www.lego.com/ja-jp,
+2025-01-01,USA,United States,USD,99.99,99.99,84.99,69.99,79.99,49.99,1.000,99.99,99.99,84.99,69.99,79.99,49.99,80.82,0.0,official,https://www.lego.com/en-us,Baseline
+2025-01-01,KOR,South Korea,KRW,139900,139900,119900,99900,119900,69900,1350.000,103.63,103.63,88.81,74.00,88.81,51.78,85.11,5.3,official,https://www.lego.com/ko-kr,
+2025-01-01,MYS,Malaysia,MYR,499.90,499.90,419.90,339.90,399.90,249.90,4.700,106.36,106.36,89.34,72.32,85.09,53.17,85.44,5.71,official,https://www.lego.com/en-my,
+2025-01-01,ISR,Israel,ILS,399.00,399.00,339.00,269.00,329.00,209.00,3.750,106.40,106.40,90.40,71.73,87.73,55.73,86.4,6.9,official,https://www.lego.com/he-il,
+2025-01-01,ROU,Romania,RON,509.99,509.99,429.99,329.99,409.99,249.99,4.700,108.51,108.51,91.49,70.21,87.23,53.19,86.52,7.05,official,https://www.lego.com/ro-ro,
+2025-01-01,ARE,UAE,AED,399.00,399.00,339.00,269.00,329.00,199.00,3.670,108.72,108.72,92.37,73.30,89.65,54.22,87.83,8.67,official,https://www.lego.com/en-ae,
+2025-01-01,TWN,Taiwan,TWD,3490.00,3490.00,2999.00,2299.00,2799.00,1799.00,31.800,109.75,109.75,94.31,72.29,88.02,56.57,88.45,9.43,official,https://www.lego.com/zh-tw,
+2025-01-01,DEU,Germany,EUR,99.99,99.99,84.99,69.99,79.99,49.99,0.913,109.51,109.51,93.09,76.66,87.62,54.75,88.52,9.53,official,https://www.lego.com/en-de,
+2025-01-01,FRA,France,EUR,99.99,99.99,84.99,69.99,79.99,49.99,0.913,109.51,109.51,93.09,76.66,87.62,54.75,88.52,9.53,official,https://www.lego.com/en-fr,
+2025-01-01,ESP,Spain,EUR,99.99,99.99,84.99,69.99,79.99,49.99,0.913,109.51,109.51,93.09,76.66,87.62,54.75,88.52,9.53,official,https://www.lego.com/es-es,
+2025-01-01,ITA,Italy,EUR,99.99,99.99,84.99,69.99,79.99,49.99,0.913,109.51,109.51,93.09,76.66,87.62,54.75,88.52,9.53,official,https://www.lego.com/it-it,
+2025-01-01,NLD,Netherlands,EUR,99.99,99.99,84.99,69.99,79.99,49.99,0.913,109.51,109.51,93.09,76.66,87.62,54.75,88.52,9.53,official,https://www.lego.com/nl-nl,
+2025-01-01,CZE,Czech Republic,CZK,2699.00,2699.00,2299.00,1799.00,2199.00,1349.00,24.000,112.46,112.46,95.79,74.96,91.63,56.21,90.58,12.08,official,https://www.lego.com/cs-cz,
+2025-01-01,HKG,Hong Kong,HKD,879.00,879.00,749.00,599.00,699.00,449.00,7.800,112.69,112.69,96.03,76.79,89.62,57.56,90.9,12.46,official,https://www.lego.com/en-hk,
+2025-01-01,GBR,United Kingdom,GBP,89.99,89.99,74.99,59.99,74.99,44.99,0.792,113.62,113.62,94.69,75.75,94.69,56.81,91.53,13.25,official,https://www.lego.com/en-gb,
+2025-01-01,NOR,Norway,NOK,1199.00,1199.00,999.00,849.00,999.00,649.00,10.700,112.06,112.06,93.36,79.34,93.36,60.65,91.81,13.59,official,https://www.lego.com/no-no,
+2025-01-01,ZAF,South Africa,ZAR,2099.00,2099.00,1799.00,1399.00,1699.00,1099.00,18.500,113.46,113.46,97.24,75.62,91.84,59.41,91.84,13.63,official,https://www.lego.com/en-za,
+2025-01-01,POL,Poland,PLN,459.99,459.99,389.99,309.99,379.99,229.99,4.000,115.00,115.00,97.50,77.50,95.00,57.50,92.92,14.96,official,https://www.lego.com/pl-pl,
+2025-01-01,MEX,Mexico,MXN,1999.00,1999.00,1699.00,1299.00,1599.00,999.00,17.200,116.22,116.22,98.78,75.52,92.97,58.08,92.96,15.02,official,https://www.lego.com/es-mx,
+2025-01-01,SGP,Singapore,SGD,149.90,149.90,129.90,109.90,129.90,79.90,1.340,111.87,111.87,96.94,82.01,96.94,59.63,93.21,15.33,official,https://www.lego.com/en-sg,
+2025-01-01,HUN,Hungary,HUF,44990.00,44990.00,37990.00,29990.00,37490.00,22990.00,390.000,115.36,115.36,97.41,76.90,96.13,58.95,93.35,15.5,official,https://www.lego.com/hu-hu,
+2025-01-01,NZL,New Zealand,NZD,189.99,189.99,159.99,139.99,159.99,109.99,1.680,113.09,113.09,95.24,83.33,95.24,65.47,94.24,16.6,official,https://www.lego.com/en-nz,
+2025-01-01,DNK,Denmark,DKK,849.95,849.95,724.95,569.95,699.95,429.95,7.000,121.42,121.42,103.56,81.42,99.99,61.42,98.2,21.51,official,https://www.lego.com/da-dk,LEGO HQ country
+2025-01-01,THA,Thailand,THB,4290.00,4290.00,3690.00,2890.00,3390.00,2090.00,35.000,122.57,122.57,105.43,82.57,96.86,59.71,98.29,21.6,official,https://www.lego.com/th-th,
+2025-01-01,SWE,Sweden,SEK,1299.00,1299.00,1099.00,849.00,999.00,699.00,10.400,124.90,124.90,105.67,81.63,96.06,67.21,100.06,23.8,official,https://www.lego.com/sv-se,
+2025-01-01,CHE,Switzerland,CHF,119.00,119.00,99.90,79.90,99.90,64.90,0.890,133.71,133.71,112.25,89.78,112.25,72.92,109.1,34.99,official,https://www.lego.com/de-ch,
+2025-01-01,IND,India,INR,12999.00,12999.00,10999.00,8999.00,10499.00,6999.00,84.000,154.75,154.75,130.94,107.13,124.99,83.32,125.98,55.87,official,https://www.lego.com/en-in,
+2025-01-01,BRA,Brazil,BRL,899.99,899.99,779.99,599.99,699.99,449.99,5.000,180.00,180.00,156.00,120.00,140.00,90.00,144.33,78.58,official,https://www.lego.com/pt-br,
+2025-01-01,ARG,Argentina,ARS,,,,,,,,,,,,,,,,no_data,https://www.lego.com/es-ar,Store exists (lego.com/es-ar) but tracked sets show no price / out of stock
+2025-01-01,CHL,Chile,CLP,,,,,,,,,,,,,,,,no_data,,No official lego.com store; tiendalego.cl is an independent retailer
+2025-01-01,PER,Peru,PEN,,,,,,,,,,,,,,,,no_data,,No official LEGO store. Sold via Mercado Libre and informal retailers only.
+2025-01-01,COL,Colombia,COP,,,,,,,,,,,,,,,,no_data,,No official LEGO store. Sold via Mercado Libre and informal retailers only.
+2025-01-01,VEN,Venezuela,USD,,,,,,,,,,,,,,,,no_data,,No official LEGO store or distribution.

@@ -1,0 +1,50 @@
+name: Annual Data Reminder
+
+on:
+  schedule:
+    # Fires on January 5th each year at 09:00 UTC
+    - cron: '0 9 5 1 *'
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create reminder issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const year = new Date().getFullYear();
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📅 Annual update needed — ${year} LEGO Brick Index`,
+              body: `## Time to update the LEGO Brick Index for ${year}!
+            
+            ### Checklist
+            
+            - [ ] Verify all 7 sets are still available in 20+ countries
+            - [ ] Collect new prices from official LEGO stores (see README for links)
+            - [ ] Record exchange rates for January 1st, ${year} (use IMF or xe.com)
+            - [ ] Create \`data/lego-brick-index-${year}.csv\` from last year's file
+            - [ ] Run \`python scripts/calculate_index.py data/lego-brick-index-${year}.csv\`
+            - [ ] Update the data reference in \`docs/index.html\` (line: fetch path)
+            - [ ] Push and verify GitHub Pages renders correctly
+            
+            ### If sets have retired
+            
+            Check Brickset.com or the official LEGO store for new globally-available sets in Marvel, Star Wars, and City themes. Open a separate PR with the new set selections before updating prices.
+            
+            ### Data sources
+            - Official LEGO stores: \`lego.com/en-{country-code}\`
+            - Multi-country prices: https://brickset.com and https://www.newelementary.com
+            - Exchange rates: https://www.xe.com or https://www.imf.org
+            
+            Good luck! 🧱`,
+              labels: ['annual-update', 'data']
+            });
+            console.log('Reminder issue created for ' + year);

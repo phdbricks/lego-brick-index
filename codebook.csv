@@ -1,0 +1,20 @@
+variable,definition,source
+date,Date of observation (YYYY-MM-DD format; annual updates recommended every January),Manual
+iso_a3,Three-character ISO 3166-1 country code,ISO Standard
+country,Country name in English,Manual
+currency_code,Three-character ISO 4217 currency code,ISO Standard
+local_price_76313_marvel,LEGO Marvel Logo & Minifigures (76313) - 931 pieces - price in local currency,LEGO Official Store
+local_price_75379_r2d2,LEGO Star Wars R2-D2 (75379) - 1050 pieces - price in local currency,LEGO Official Store
+local_price_75375_falcon,LEGO Star Wars Millennium Falcon (75375) - 921 pieces - price in local currency,LEGO Official Store
+local_price_76314_civilwar,LEGO Marvel Civil War Battle (76314) - 759 pieces - price in local currency,LEGO Official Store
+local_price_60316_police,LEGO City Police Station (60316) - 668 pieces - price in local currency,LEGO Official Store
+local_price_60399_fire,LEGO City Fire Station (60399) - 843 pieces - price in local currency,LEGO Official Store
+local_price_60314_truck,LEGO City Ice Cream Truck (60314) - 327 pieces - price in local currency,LEGO Official Store
+dollar_ex,Local currency units per US dollar (annual average),IMF / xe.com
+dollar_price_76313,Price of MARVEL Logo set in USD (local_price / dollar_ex),Calculated
+dollar_price_75379,Price of R2-D2 set in USD (local_price / dollar_ex),Calculated
+dollar_price_75375,Price of Millennium Falcon in USD (local_price / dollar_ex),Calculated
+dollar_price_60316,Price of Police Station in USD (local_price / dollar_ex),Calculated
+composite_index_raw,Simple average of dollar prices across all 7 sets,Calculated
+USD_raw_composite,Percentage over/undervaluation vs United States composite baseline,Calculated
+source_url,URL of official LEGO store in that country,Manual
